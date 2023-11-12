@@ -8,10 +8,7 @@ const config = {
   },
   docs: {
     autodocs: true
-  },
-  webpackFinal: (config) => {
-    config.resolve.modules.push(`${process.cwd()}/src`)
-    return config
   }
 }
+
 export default config
